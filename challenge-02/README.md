@@ -64,12 +64,12 @@ Crie uma função com as seguintes características:
 ?
 ```
 
-Solução
-function Validacao(a, b, c){
- if(a === undefined || b === undefined || c === undefined ){
-   return "Existem um ou mais campos vazios";
- }
-  return (a*b*c) + 2;
- }
+// Solução
+// function Validacao(a, b, c){
+// if(a === undefined || b === undefined || c === undefined ){
+// return "Existem um ou mais campos vazios";
+// }
+//  return (a*b*c) + 2;
+// }
 
-Validacao(2,3,4);
+// Validacao(2,3,4);
