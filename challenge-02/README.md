@@ -55,7 +55,7 @@ Crie uma função com as seguintes características:
  if(a === undefined || b === undefined || c === undefined ){
  return "Existem um ou mais campos vazios";
  }
-  return (a*b*c) + 2;
+  return (a * b * c) + 2;
  }
 
  Validacao(2,3,4);
