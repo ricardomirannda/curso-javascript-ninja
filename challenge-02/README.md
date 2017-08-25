@@ -78,7 +78,7 @@ Crie uma função com as seguintes características:
 
 
 // Solucao 03
-function TresArgumentos(a, b, c){
+*function TresArgumentos(a, b, c){
   if(a !== undefined && b === undefined && c === undefined){
     return a;
   }
@@ -100,5 +100,6 @@ function TresArgumentos(a, b, c){
   }
 }
 
-TresArgumentos(1,2,3);
+TresArgumentos(1,2,3);*
+
 
