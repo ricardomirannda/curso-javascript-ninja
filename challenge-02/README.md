@@ -77,8 +77,7 @@ Crie uma função com as seguintes características:
 ```
 
 
-//Solucao 03
-
+// Solucao 03
 function TresArgumentos(a, b, c){
   if(a !== undefined && b === undefined && c === undefined){
     return a;
