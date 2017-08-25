@@ -49,6 +49,18 @@ Crie uma função com as seguintes características:
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 ?
 
+
+// Solução 02 
+ function Validacao(a, b, c){
+ if(a === undefined || b === undefined || c === undefined ){
+ return "Existem um ou mais campos vazios";
+ }
+  return (a*b*c) + 2;
+ }
+
+ Validacao(2,3,4);
+
+
 /*
 Crie uma função com as seguintes características:
 1. A função deve receber 3 argumentos.
@@ -64,12 +76,30 @@ Crie uma função com as seguintes características:
 ?
 ```
 
-// Solução
-// function Validacao(a, b, c){
-// if(a === undefined || b === undefined || c === undefined ){
-// return "Existem um ou mais campos vazios";
-// }
-//  return (a*b*c) + 2;
-// }
 
-// Validacao(2,3,4);
+//Solucao 03
+
+function TresArgumentos(a, b, c){
+  if(a !== undefined && b === undefined && c === undefined){
+    return a;
+  }
+  
+  else if(a !== undefined && b !== undefined && c === undefined){
+    return a + b;  
+  }
+  
+   else if(a !== undefined && b !== undefined && c !== undefined){
+    return (a + b)/c;  
+  }
+  
+  else if(a === undefined && b === undefined && c === undefined){
+    return false;
+  }
+  
+  else {
+    return null;
+  }
+}
+
+TresArgumentos(1,2,3);
+
