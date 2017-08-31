@@ -18,6 +18,18 @@ As propriedades e tipos de valores para cada propriedade desse objeto devem ser:
 - `caminhouQuantosMetros` - Number - recebe "zero" por padrão
 */
 ?
+``var pessoa = {
+  nome: "Ricardo",
+  sobrenome: 'Miranda',
+  sexo: 'Masculino',
+  idade: 35,
+  altura: 1.73,
+  peso: 68,
+  andando: false,
+  caminhouQuantosMetros: 0
+};
+
+pessoa;
 
 /*
 Adicione um método ao objeto `pessoa` chamado `fazerAniversario`. O método deve
