@@ -71,7 +71,6 @@ Crie um método chamado `nomeCompleto`, que retorne a frase:
     return 'Olá! meu nome é ' + pessoa.nome + ' ' + pessoa.sobrenome;
   };
   
-  pessoa.nomeCompleto();  
 
 /*
 Crie um método chamado `mostrarIdade`, que retorne a frase:
@@ -81,7 +80,6 @@ Crie um método chamado `mostrarIdade`, que retorne a frase:
     return 'Olá, eu tenho  ' + pessoa.idade + ' anos';
   };
   
-  pessoa.mostrarIdade();  
 
 /*
 Crie um método chamado `mostrarPeso`, que retorne a frase:
@@ -90,9 +88,7 @@ Crie um método chamado `mostrarPeso`, que retorne a frase:
 ``pessoa.mostrarPeso = function(){
     return 'Eu peso ' + pessoa.peso + 'Kg.';
   };
-  
-  pessoa.mostrarPeso();  
-  
+    
 
 /*
 Crie um método chamado `mostrarAltura` que retorne a frase:
@@ -102,32 +98,35 @@ Crie um método chamado `mostrarAltura` que retorne a frase:
     return 'Minha altura é ' + pessoa.altura + 'm.';
   };
   
-  pessoa.mostrarAltura();  
 
 /*
 Agora vamos brincar um pouco com o objeto criado:
 Qual o nome completo da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-?
+``pessoa.nomeCompleto(); //Ricardo Miranda
+
 
 /*
 Qual a idade da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-?
+``pessoa.mostrarIdade(); //35 anos  
+
 
 /*
 Qual o peso da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-?
+``pessoa.mostrarPeso(); //68Kg 
+
 
 /*
 Qual a altura da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-?
+``pessoa.mostrarAltura(); //1.73m  
+
 
 /*
 Faça a `pessoa` fazer 3 aniversários.
