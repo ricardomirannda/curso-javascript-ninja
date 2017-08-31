@@ -67,7 +67,11 @@ da propriedade `andando` para o valor booleano que representa "falso".
 Crie um método chamado `nomeCompleto`, que retorne a frase:
 - "Olá! Meu nome é [NOME] [SOBRENOME]!"
 */
-?
+``pessoa.nomeCompleto = function(){
+    return 'Olá! meu nome é ' + pessoa.nome + ' ' + pessoa.sobrenome;
+  };
+  
+  pessoa.nomeCompleto();  
 
 /*
 Crie um método chamado `mostrarIdade`, que retorne a frase:
