@@ -15,7 +15,14 @@ isTruthy();
 
 
 // Invoque a função criada acima, passando todos os tipos de valores `falsy`.
-?
+``isTruthy(false);
+  isTruthy(null);
+  isTruthy(undefined);
+  isTruthy('');
+  isTruthy(0);
+  isTruthy(-0);
+  isTruthy(NaN);
+
 
 /*
 Invoque a função criada acima passando como parâmetro 10 valores `truthy`.
