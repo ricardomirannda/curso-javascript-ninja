@@ -23,21 +23,21 @@ isTruthy();
   isTruthy(-0);
   isTruthy(NaN);
 
-//!!x; x is not defined;
+!!x; x is not defined;
 
-//!!undefined; false;
+!!undefined; false;
 
-//!!true; true;
+!!true; true;
 
-//!!null; false;
+!!null; false;
 
-//!![]; true;
+!![]; true;
 
-//!!{}; true;
+!!{}; true;
 
-//!!function(){}; true;
+!!function(){}; true;
 
-//!!0; false;
+!!0; false;
 
 
 
