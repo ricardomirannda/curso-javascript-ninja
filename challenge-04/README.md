@@ -60,7 +60,17 @@ isTrutht('Scott Forstall');
 /*
 Invoque a função criada acima passando como parâmetro 10 valores `truthy`.
 */
-?
+``isTruthy(1); true;
+isTruthy('Ricardo');true;
+isTruthy([]);true;
+isTruthy({});true;
+isTruthy(function (){});true;
+isTruthy('Curso de JS Ninja');true;
+isTruthy(20 * 10);true;
+isTruthy(20 + 45);true;
+isTruthy([1,2,3]);true;
+isTruthy({a:1, b:2, c:3});true;
+
 
 /*
 Declare uma variável chamada `carro`, atribuindo à ela um objeto com as
