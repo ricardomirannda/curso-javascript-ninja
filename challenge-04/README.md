@@ -48,6 +48,12 @@ var isTrutht = function(parametro){
 };
 isTrutht(); 
 
+//outra forma com Operador Ternário
+var isTrutht = function(parametro){
+  return parametro ? console.log('I love Javascript') : console.log('I hate C#');
+};
+
+isTrutht('Scott Forstall');
 
 
 
