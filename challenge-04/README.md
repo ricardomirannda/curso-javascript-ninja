@@ -23,7 +23,7 @@ isTruthy();
   isTruthy(-0);
   isTruthy(NaN);
 
-``//!!x; x is not defined;
+//!!x; x is not defined;
 
 //!!undefined; false;
 
