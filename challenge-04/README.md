@@ -39,7 +39,16 @@ isTruthy();
 
 !!0; false;
 
+var isTrutht = function(parametro){
+  if (parametro){
+    return console.log('I love Javascript');
+  }
+  return console.log('I hate C# ');;
+};
+//outra maneira, porém escreve mais
 
+
+isTrutht();
 
 /*
 Invoque a função criada acima passando como parâmetro 10 valores `truthy`.
