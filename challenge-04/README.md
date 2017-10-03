@@ -165,22 +165,22 @@ retornar algum valor.
 
 Qual a cor atual do carro?
 */
-carro.obterCor();
+carro.obterCor(); //preto
 
 // Mude a cor do carro para vermelho.
-?
+``carro.mudarCor("Vermelho");
 
 // E agora, qual a cor do carro?
-?
+``carro.obterCor(); //vermelho
 
 // Mude a cor do carro para verde musgo.
-?
+``carro.mudarCor('Verde Musgo'); //verde musgo
 
 // E agora, qual a cor do carro?
-?
+``carro.obterCor(); // verde musgo
 
 // Qual a marca e modelo do carro?
-?
+``carro.obterMarcaModelo(); //Esse carro é Fiat Bravo
 
 // Adicione 2 pessoas no carro.
 ?
