@@ -123,7 +123,9 @@ Crie um método chamado `obterModelo` que retorne o modelo do carro.
 /*
 Crie um método chamado `obterMarca` que retorne a marca do carro.
 */
-?
+``carro.obterMarca = function(){
+  return carro.marca;
+}
 
 /*
 Crie um método chamado `obterMarcaModelo`, que retorne:
