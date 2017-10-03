@@ -109,7 +109,9 @@ passado por parâmetro.
 /*
 Crie um método chamado `obterCor`, que retorne a cor do carro.
 */
-?
+``carro.obterCor = function(){
+  return carro.cor;
+};
 
 /*
 Crie um método chamado `obterModelo` que retorne o modelo do carro.
