@@ -165,7 +165,7 @@ retornar algum valor.
 
 Qual a cor atual do carro?
 */
-? 
+carro.obterCor();
 
 // Mude a cor do carro para vermelho.
 ?
