@@ -84,7 +84,18 @@ seguintes propriedades (os valores devem ser do tipo mostrado abaixo):
 - `assentos` - Number - cinco por padrão
 - `quantidadePessoas` - Number - zero por padrão
 */
-?
+``var carro = {
+  marca: "Fiat",
+  modelo: "Bravo",
+  placa: "ZYK 5670",
+  ano: 2010,
+  cor: "preto",
+  quantasPortas: 4,
+  assentos: 5,
+  quantidadePessoas: 0
+}
+
+carro;
 
 /*
 Crie um método chamado `mudarCor` que mude a cor do carro conforme a cor
