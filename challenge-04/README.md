@@ -116,7 +116,9 @@ Crie um método chamado `obterCor`, que retorne a cor do carro.
 /*
 Crie um método chamado `obterModelo` que retorne o modelo do carro.
 */
-?
+``carro.obterModelo = function(){
+  return carro.modelo;
+}
 
 /*
 Crie um método chamado `obterMarca` que retorne a marca do carro.
