@@ -17,7 +17,12 @@ function minhaFuncao(parametroArray){
 /*
 Imprima o segundo índice do array retornado pela função criada acima.
 */
-// ?
+function minhaFuncao(parametroArray){
+  return parametroArray[1];  
+}
+
+minhaFuncao(meuArray);
+
 
 /*
 Crie uma função que receba dois parâmetros: o primeiro, um array de valores; e o
