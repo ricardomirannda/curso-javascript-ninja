@@ -61,7 +61,39 @@ propriedades:
 - Se o parâmetro não for passado, a função deve retornar o objeto com todos
 os livros.
 */
-// ?
+function book(bookName){
+  var allBooks = {
+    'O caminho da paz': {
+      quantidadePaginas: 3,
+      autor: "Ricardo Miranda",
+      editora: "Abril" 
+    },
+    
+    'O pequeno Principe':{
+      quantidadePaginas: 5,
+      autor: "Ana Maria",
+      editora: "Época"
+    },
+    
+    'Fortaleza Digital':{
+      quantidadePaginas: 9,
+      autor: "Gabriela Silva",
+      editora: "Veja"
+    }
+  };
+  
+  if(!bookName){
+    return allBooks;
+  }
+  
+  return allBooks[bookName];
+  
+  
+  // Outra forma com operador ternário
+  // return !bookName ? allBooks : allBooks[bookName];
+  
+}
+
 
 /*
 Usando a função criada acima, imprima o objeto com todos os livros.
