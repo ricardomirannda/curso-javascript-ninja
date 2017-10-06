@@ -90,7 +90,7 @@ function book(bookName){
   
   
   // Outra forma com operador ternário
-  // return !bookName ? allBooks : allBooks[bookName];
+  return !bookName ? allBooks : allBooks[bookName];
   
 }
 
