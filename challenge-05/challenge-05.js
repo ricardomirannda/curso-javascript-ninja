@@ -20,9 +20,7 @@ Imprima o segundo índice do array retornado pela função criada acima.
 function minhaFuncao(parametroArray){
   return parametroArray[1];  
 }
-
 minhaFuncao(meuArray);
-
 
 /*
 Crie uma função que receba dois parâmetros: o primeiro, um array de valores; e o
@@ -30,18 +28,24 @@ segundo, um número. A função deve retornar um índice do array que foi passad
 no primeiro parâmetro. O índice a ser retornado, deve ser o número passado no
 segundo parâmetro.
 */
-// ?
+function minhaFuncao(parametroArray, indice){
+  return parametroArray[indice];
+}
 
 /*
 Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
 */
-// ?
+var meuArray = [1, 'Frontend', true, 10, "Ricardo Miranda"];
 
 /*
 Invoque a função criada acima, fazendo-a retornar todos os valores do último
 array criado.
 */
-// ?
+function minhaFuncao(parametroArray, indice){
+  return parametroArray[indice];
+}
+minhaFuncao(meuArray, 1)
+
 
 /*
 Crie uma função chamada `book`, que recebe um parâmetro, que será o nome do
