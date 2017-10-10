@@ -107,6 +107,10 @@ usando a frase:
 */
 console.log("O livro Fortaleza Digital tem " + book('Fortaleza Digital').quantidadePaginas + " páginas");
 
+// Opçao melhorada
+var bookName = "O pequeno Principe";
+console.log("O livro " + bookName + " tem " + book(bookName).quantidadePaginas + " páginas");
+
 
 /*
 Ainda com a função acima, imprima o nome do autor de um livro qualquer, usando
