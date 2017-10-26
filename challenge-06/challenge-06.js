@@ -4,7 +4,7 @@ para começar o desafio.
 Declare uma variável chamada `championship` que receberá o nome do campeonato,
 e imprima o nome desse campeonato no console.
 */
-var championship = "Campeonato Baiano";
+var championship = "Campeonato Paulista";
 console.log(championship);
 
 /*
@@ -13,9 +13,10 @@ Os elementos serão nomes de times do campeonato escolhido, e os nomes devem
 estar na ordem em que eles aparecem na tabela no momento da solução desse
 desafio.
 */
-// ?
+var teams = ["São Paulo", "Santos", "Palmeiras", "Ponte Preta", "Portuguesa"];
 
-console.log( 'Times que estão participando do campeonato:', teams );
+console.log('Times que estão participando do : ', championship, teams);
+
 
 /*
 Crie uma função chamada `showTeamPosition` com as seguintes características:
