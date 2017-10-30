@@ -80,4 +80,11 @@ Crie uma função chamada `convertToHex`, com as seguintes características:
 /*
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
 */
-// ?
+console.log(convertToHex('red'));
+console.log(convertToHex('blue'));
+console.log(convertToHex('green'));
+console.log(convertToHex('black'));
+console.log(convertToHex('white'));
+console.log(convertToHex('purple'));
+console.log(convertToHex('cyan'));
+console.log(convertToHex('magenta'));
