@@ -56,7 +56,12 @@ showTeamPosition(8);
 Mostre os números de 20 a 30 no console (inclusive o 30), usando a estrutura de
 repetição "while".
 */
-// ?
+var numero = 20;
+
+while (numero <= 30){
+  console.log( "Eu sou o número " + numero );
+  numero++;
+}
 
 /*
 Crie uma função chamada `convertToHex`, com as seguintes características:
