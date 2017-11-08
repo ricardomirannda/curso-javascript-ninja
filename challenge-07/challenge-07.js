@@ -4,9 +4,11 @@ Crie um array com 5 items (tipos variados).
 var meuArray = [
   'Ricardo', 
   true, 
+  15,
   {time: 'Sao Paulo'}, 
   function(){}
   ]
+  
 
 /*
 Crie uma função chamada `addItem`, que irá adicionar itens no array criado.
@@ -32,7 +34,8 @@ Mostre no console o segundo elemento desse último array, criado acima, com a
 frase:
 "O segundo elemento do segundo array é [ELEMENTO]."
 */
-// ?
+addItem([3, true, 'Miranda']);
+console.log('O segundo elemento do segundo array é ' + meuArray[5][1])
 
 /*
 Mostre no console quantos itens tem o primeiro array criado, com a frase:
