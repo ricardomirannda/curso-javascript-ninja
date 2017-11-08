@@ -12,7 +12,12 @@ var meuArray = [
 Crie uma função chamada `addItem`, que irá adicionar itens no array criado.
 A função deverá retornar o array atualizado.
 */
-// ?
+
+function addItem (item){
+  meuArray.push(item);
+  return meuArray;
+}
+
 
 /*
 Adicione um novo array ao array criado no início do desafio, com ao menos 3
