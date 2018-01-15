@@ -19,7 +19,7 @@ function addItem (item){
   meuArray.push(item);
   return meuArray;
 }
-addItem("15")
+addItem("Apple")
 
 
 /*
