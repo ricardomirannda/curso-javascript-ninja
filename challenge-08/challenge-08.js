@@ -5,7 +5,6 @@ desses parâmetros.
 */
 // ?
 
-//QUE COISA HEIN
 
 /*
 Invoque a função criada acima, passando dois números que serão somados, e mostre
