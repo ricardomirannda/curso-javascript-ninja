@@ -5,6 +5,8 @@ desses parâmetros.
 */
 // ?
 
+//QUE COISA HEIN
+
 /*
 Invoque a função criada acima, passando dois números que serão somados, e mostre
 o resultado no console, com a frase:
@@ -22,7 +24,7 @@ Mostre no console o nome da função criada acima, com a frase:
 Crie uma função literal chamada `showName`. Essa função deve retornar o
 seu nome.
 */
-// ? 
+// ?
 
 /*
 Declare uma variável chamada `varShowName` que recebe a função criada acima.
