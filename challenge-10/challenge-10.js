@@ -66,7 +66,15 @@
     Caso contrário, "false".
     - O desafio é fazer o retorno sem usar "if" ou "switch".
     */
-    // ?
+    
+
+    function isOperatorValid( operator ){
+
+       return !!operation[operator];
+
+      //ou return operation[operator] !== undefined;
+    }
+    
 
     /*
     Agora vamos criar a calculadora.
