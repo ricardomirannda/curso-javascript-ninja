@@ -69,7 +69,6 @@
       // ou return person.age > 25 ? true : false
       // ou return person.age > 25
     }
-
     console.log ( 'The person has more than 25 years old?', moreThan ( 10 ))
 
     /*
