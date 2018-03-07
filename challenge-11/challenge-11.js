@@ -15,14 +15,20 @@
       console.log( 'Entrou ao menos uma vez!' );
     } while ( once  ) ;
 
-
-
+  
     /*
     Crie um objeto chamado `person`, que receba as seguintes propriedades:
     - 'name', 'age', 'weight' e 'birthday'. Preencha com os valores corretos
     para o nome, idade, peso e data de nascimento dessa pessoa.
     */
-    // ?
+
+    var person = {
+      name: 'Ricardo Miranda',
+      age: 35,
+      weight: 68,
+      birthday: '25/11'
+    }
+    
 
     /*
     Use um loop para percorrer o objeto criado acima, mostrando no console
