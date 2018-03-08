@@ -77,7 +77,20 @@
     Mostre no console os números no array.
     */
     console.log( 'De 0 a 10:' );
-    // ?
+  
+    var numbers = [];
+
+    for ( var i = 0; i < 20; i++ ) {
+
+      if ( i > 10 ){
+        break; 
+      }
+
+      numbers.push( i );
+
+    }
+
+    console.log ( numbers ) ;
 
     /*
     Faça outro loop de 0 a 20, que adicione a um array chamado `numbers` (já
